@@ -1,0 +1,24 @@
+# Archivo de variables de entorno (NUNCA subir a Git)
+.env
+
+# Entorno virtual de Python
+env/
+venv/
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local (por si usaras SQLite)
+*.sqlite3
+
+# Archivos estáticos recolectados
+/staticfiles/
+/media/
+
+# Archivos de configuración del editor / SO
+.vscode/
+.idea/
+.DS_Store
